@@ -1,38 +1,21 @@
 Here is a list of some of the most common JavaScript array methods:
 
-at() - Returns the element at the specified index in the array.
-constructor - Creates a new array object.
-copyWithin() - Copies elements within an array.
-entries() - Returns an iterator over the key-value pairs of an array.
 every() - Checks if all elements in an array pass a test.
 fill() - Fills all or part of an array with a specified value.
 filter() - Creates a new array containing all elements of the original array that pass a test.
-find() - Returns the first element in an array that passes a test.
-findIndex() - Returns the index of the first element in an array that passes a test.
 flat() - Flattens an array into a single-dimensional array.
 flatMap() - Flattens an array and applies a function to each element.
 forEach() - Executes a function on each element in an array.
 from() - Creates a new array from an iterable object.
-includes() - Checks if an array contains a specified element.
-indexOf() - Returns the index of the first occurrence of a specified element in an array.
-isArray() - Checks if a value is an array.
-join() - Joins all elements of an array into a string.
-keys() - Returns an iterator over the keys of an array.
-lastIndexOf() - Returns the index of the last occurrence of a specified element in an array.
 
 map() - Creates a new array containing the results of applying a function to each element of the original array.
 
 
-prototype - Contains the properties and methods that are shared by all array objects.
 
 reduce() - Applies a function to each element in an array and returns a single value.
 reduceRight() - Applies a function to each element in an array in reverse order and returns a single value.
-reverse() - Reverses the order of the elements in an array.
 
 slice() - Returns a new array containing a subset of the elements of the original array.
 some() - Checks if any elements in an array pass a test.
-sort() - Sorts the elements of an array in ascending or descending order.
 splice() - Removes elements from an array and/or adds new elements.
-toString() - Returns a string representation of an array.
 
-valueOf() - Returns the primitive value of an array.
