@@ -2,18 +2,7 @@ Here is a list of some of the most common JavaScript array methods:
 
 every() - Checks if all elements in an array pass a test.
 fill() - Fills all or part of an array with a specified value.
-filter() - Creates a new array containing all elements of the original array that pass a test.
-flat() - Flattens an array into a single-dimensional array.
-flatMap() - Flattens an array and applies a function to each element.
-forEach() - Executes a function on each element in an array.
 from() - Creates a new array from an iterable object.
-
-map() - Creates a new array containing the results of applying a function to each element of the original array.
-
-
-
-reduce() - Applies a function to each element in an array and returns a single value.
-reduceRight() - Applies a function to each element in an array in reverse order and returns a single value.
 
 slice() - Returns a new array containing a subset of the elements of the original array.
 some() - Checks if any elements in an array pass a test.

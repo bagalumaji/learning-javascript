@@ -31,7 +31,12 @@ arr.filter(value => value % 2 ===0).forEach(value => console.log(value));
 
 arr.map(value=>value*2).forEach(value => console.log(value));
 
-arr.reduce()
+const sum = arr.reduce((a,e)=> a+e,0);
+console.log('sum ',sum)
+const c = [1,2,[3,4],[4,6]]
+console.log(c.flat());
+
+console.log(c.flatMap(e=>e+2));
 
 
 
