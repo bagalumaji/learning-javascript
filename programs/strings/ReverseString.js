@@ -21,3 +21,13 @@ function reverseString2(str) {
 }
 
 console.log(reverseString2("hello"));
+
+const s = "I am the boy";
+
+const arr = s.split(" ");
+
+let reverse = "";
+for (const s of arr) {
+  reverse += s.split("").reverse().join("") + " ";
+}
+console.log("reverse: " + reverse.trim());
