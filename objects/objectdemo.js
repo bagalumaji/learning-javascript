@@ -1,4 +1,4 @@
-const obj ={
+export const obj ={
     "A":"Apple",
     "M":"Banana",
     "O":"Cherry"
