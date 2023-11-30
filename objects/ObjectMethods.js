@@ -35,3 +35,8 @@ console.log(entries);
 const newObj = Object.assign({},person,{gender:"male"});
 console.log(newObj);
 
+Object.seal(person);
+
+//we can not add new property but we can update existing
+person.firstName="SAYAJI";
+console.log(person)
