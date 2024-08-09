@@ -2,6 +2,7 @@
 class Demo{
     constructor(id) {
         this.id=id;
+        console.log("Demo constructor")
     }
     display(){
         console.log(`Id : ${this.id}`)
@@ -9,8 +10,9 @@ class Demo{
 }
 class Abc extends Demo{
     constructor(id, name) {
-        super(id);
+       super(id);
         this.name=name;
+        console.log("Abc constructor")
     }
     show(){
         console.log(`Details : ${this.name}`)
