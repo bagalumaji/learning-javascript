@@ -12,8 +12,8 @@ class B extends A{
         super()
     }
 
-    display(){
-        console.log("hello from B")
+    display(name){
+        console.log("hello from B", name);
     }
 }
 class C extends B{
@@ -21,12 +21,16 @@ class C extends B{
         console.log("constructor - class C");
         super();
     }
+    display(){
+        console.log("hello from C")
+    }
     print(){
+        super.display("sharu")
         console.log("hello from C")
     }
 }
 
 const c = new C();
 c.print();
-c.display()
+c.display("hello")
 c.show();
