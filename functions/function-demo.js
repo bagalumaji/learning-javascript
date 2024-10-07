@@ -25,23 +25,48 @@
 //
 // var a=10;
 
+//
+// function add(a,b){
+//     console.log(a + b);
+// }
+// function sub(a,b){
+//     console.log(a-b)
+// }
+//
+// function calculate(a,cal){
+//     console.log(a,b);
+//     cal(a,b);
+// }
+//
+// calculate(1,2,add);
+// calculate(1,2,sub);
 
-function add(a,b){
-    console.log(a + b);
+// const demo =()=>{
+//     console.log("demo")}
+
+// const demo = str => console.log(`hello ${str}`);
+// const demo = str => `hello ${str}`;
+//
+// console.log(demo("java script"));
+// const person ={
+//     name:"abc",
+//     greet(){return this.name}
+// }
+// console.log(person.greet());
+
+
+// (function demo(){
+//     console.log("demo-1");
+// })()
+
+function cal(a){
+    return function (b){
+        return a*b;
+    }
 }
-function sub(a,b){
-    console.log(a-b)
-}
 
-function calculate(a,b,cal){
-    console.log(a,b);
-    cal(a,b);
-}
+const cal1 = cal(10);
 
-calculate(1,2,add);
-calculate(1,2,sub);
-
-
-
+console.log(cal1(5));
 
 
